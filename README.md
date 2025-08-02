@@ -1,6 +1,6 @@
-# my_project
+# Saute & Simmer Mobile App
 
-A new Flutter project.
+A Flutter project.
 
 ## Getting Started
 
