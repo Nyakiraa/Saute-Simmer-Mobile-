@@ -1,0 +1,44 @@
+name: sautens
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset declaration
+  assets:
+    - assets/images/
+    - assets/images/Wedding.jpg
+    - assets/images/Birthday.jpg
+    - assets/images/Social.jpg
+    - assets/images/Corporate.jpg
+    - assets/images/Others.jpg
+    - assets/images/logo.png
+    
+
+
+  # Fonts (if you're using custom fonts, add them here)
+  fonts:
+    - family: Archivo
+      fonts:
+        - asset: assets/fonts/Archivo-Regular.ttf
+        - asset: assets/fonts/Archivo-Italic.ttf
+          weight: 700
